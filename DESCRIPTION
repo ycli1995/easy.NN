@@ -1,0 +1,30 @@
+Package: easy.NN
+Type: Package
+Title: Manipulation for nearest neighbors (NNs)
+Version: 0.0.1
+Date: 2024-07-23
+Authors@R: person(given = "Yuchen", family = "Li", email = "ycli1995@outlook.com", role = c("aut", "cre"))
+Description: Some functions for data coercing, manipulation and calculation of nearest neighbors.
+Depends: R (>= 4.1.0), methods
+Imports: 
+    easy.utils,
+    future,
+    future.apply,
+    magrittr,
+    Matrix (>= 1.7.0),
+    Rcpp (>= 1.0.12),
+    RcppAnnoy,
+    RcppHNSW,
+    rlang,
+    rnndescent
+LinkingTo: Rcpp
+LazyData: true
+URL: https://github.com/ycli1995/easy.NN
+BugReports: https://github.com/ycli1995/easy.NN/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Encoding: UTF-8
+License: MIT + file LICENSE
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
